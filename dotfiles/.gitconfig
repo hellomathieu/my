@@ -1,0 +1,20 @@
+[color]
+	ui 		= auto
+[core]
+	editor 	= vim
+[push]
+	default = matching
+[alias]
+	br 		= branch
+	st 		= status
+	df 		= diff
+	dc 		= diff --cached
+	co 		= checkout
+	ad      = add
+	aa 		= add . 
+	cm 		= commit -m
+	cme		= commit
+	hum     = commit --amend -m
+	unstage = reset HEAD --
+	last    = log -1 HEAD
+	lazy    = "!git add . && git commit -m 'Some updates.' && git push"
